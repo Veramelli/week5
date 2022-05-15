@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        header {
+            background-color: grey;
+        }
+
+        main {
+            height: 50vh;
+        }
+
+        section {
+            padding: 20px 10px 10px 10px;
+            background-color: rgb(250, 238, 217);
+            flex-grow: 2;
+            text-align: center;
+        }
+
+        aside {
+            background-color: rgb(202, 233, 202);
+            padding-top: 20px;
+            flex-grow: 1;
+        }
+
+        footer {
+            padding: 10px;
+            background-color: rgb(173, 168, 168);
+            height: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .grand {
+            height: 50vh;
+            display: flex;
+        }
+
+        .little {
+            margin-top: 70px;
+            height: 120px;
+            display: flex;
+            justify-content: space-between;
+            align-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .footer {
+            background-color: rgb(221, 217, 217);
+            height: 80%;
+            width: 20vw;
+        }
+
+        #one {
+            height: 50px;
+            width: 49%;
+            background-color: rgb(255, 224, 167);
+
+        }
+
+        #two {
+            height: 50px;
+            width: 49%;
+            background-color: rgb(255, 224, 167);
+        }
+
+        #three {
+            height: 50px;
+            width: 100%;
+            background-color: rgb(255, 224, 167);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        [Шапка страницы]
+    </header>
+
+    <main class="grand">
+        <section>
+            [Основная часть]
+            <div class="little">
+                <div id="one">[Еще 1]</div>
+                <div id="two">[Еще 2]</div>
+                <div id="three">[Еще 3]</div>
+            </div>
+        </section>
+        <aside>
+            [Боковая часть]
+        </aside>
+    </main>
+
+    <footer>
+        <div class="footer">[Секция футера 1]</div>
+        <div class="footer">[Секция футера 2]</div>
+        <div class="footer">[Секция футера 3]</div>
+        <div class="footer">[Секция футера 4]</div>
+    </footer>
+
+</body>
+
+</html>
